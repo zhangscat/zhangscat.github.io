@@ -1,7 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
-	font-family: sans-serif;
+	font-family: Impact;
 }
 
 .container{
@@ -9,3 +9,67 @@
 	height: 100%;
 	background: #fbf0ff;
 }
+
+.menu ul{
+	display: inline-flex;
+	margin: 50px;
+}
+
+.menu ul li{
+	list-style: none;
+	margin: 0 20px;
+	color: #b2b1b1;
+	cursor: pointer;
+}
+
+.logo img{
+	width: 30px;
+	margin-top: -7px;
+	margin-right: 48px;
+}
+
+.active{
+	color: #a5cbd1 !important;
+
+}
+
+.banner{
+	width: 80%;
+	height: 70%;
+	top: 25%;
+	left: 130px;
+	position: absolute;
+	color: #000;
+}
+
+.app-text{
+	width: 50%;
+	float: left;
+}
+
+.app-text h1{
+	font-size: : 43px;
+	width: 640 px;
+	position: relative;
+	margin-left: 40px;
+}
+
+.app-text p{
+	width: 650px;
+	font-size: : 15px;
+	margin: 30px 0 30px 40px;
+	line-height: 25px;
+	color: #919191;
+}
+
+.app-picture{
+	width: 50%;
+	float: right;
+}
+
+.app-picture img{
+	width: 100%;
+	margin-top: -20px;
+	padding-left: 50px;
+}
+
