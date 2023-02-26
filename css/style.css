@@ -389,6 +389,11 @@ ol {
 /*---------------------
 	Hero section
 -----------------------*/
+.bot {
+	position: relative;
+	bottom: 0;
+}
+
 .hero-section {
 	background: #f2f7f8;
 }
@@ -411,9 +416,9 @@ ol {
 
 .hero-image {
 	padding-top: 0px;
-	padding-left: 45px;
+	padding-left: 12%;
 	width: 75%;
-	margin-bottom: 70px;
+	margin-bottom: 50px;
 
 }
 
@@ -524,7 +529,7 @@ ol {
 }
 
 .resume-list h2 {
-	font-size: 55px;
+	font-size: 20px;
 	margin-bottom: 5px;
 	color: #e1dce6;
 }
@@ -534,7 +539,14 @@ ol {
 	text-transform: uppercase;
 	color: #808181;
 	margin-top: 10px;
-	margin-bottom: 45px;
+	margin-bottom: 40px;
+}
+
+.resume-list h5 {
+	font-size: 16px;
+	font-weight: lighter;
+	color: #aaacac;
+
 }
 
 .resume-list p {
@@ -690,8 +702,8 @@ ol {
 -----------------------*/
  .main-left-area
 {
-	background: #f4f2f8;
-	padding-top: 200px;
+	background: #f8f2f8;
+	padding-top: 160px;
 	padding-right: 80px;
 	padding-left: 80px;
 }
@@ -705,6 +717,7 @@ ol {
  {
 	padding-top: 200px;
 	padding-left: 110px;
+
 }
 
  .resume-list li {
