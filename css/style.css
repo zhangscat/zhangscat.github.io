@@ -390,8 +390,7 @@ ol {
 	Hero section
 -----------------------*/
 .bot {
-	position: relative;
-	bottom: 0;
+	padding-top: 50px;
 }
 
 .hero-section {
@@ -428,6 +427,12 @@ ol {
 
 .hero-info ul {
 	list-style: none;
+}
+
+.hero-info h5 {
+	font-size: 22px;
+	color: #40424a;
+	margin-bottom: 15px;
 }
 
 .hero-info ul li {
